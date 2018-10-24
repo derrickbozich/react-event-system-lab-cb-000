@@ -9,7 +9,7 @@ export default class EyesOnMe extends React.Component{
 
   render(){
     return(
-      <button type="password" onfocus={this.focus} onblur={this.focus}>Eyes on me, please!</button>
+      <button onfocus={this.focus} onblur={this.focus}>Eyes on me, please!</button>
     )
   }
 }
